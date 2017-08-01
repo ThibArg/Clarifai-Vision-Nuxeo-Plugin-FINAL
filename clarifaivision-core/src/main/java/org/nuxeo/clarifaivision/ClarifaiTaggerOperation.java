@@ -1,13 +1,4 @@
-package org.nuxeo.clarifaivision;
-
-import org.nuxeo.ecm.automation.core.Constants;
-import org.nuxeo.ecm.automation.core.annotations.Operation;
-import org.nuxeo.ecm.automation.core.annotations.OperationMethod;
-import org.nuxeo.ecm.core.api.DocumentModel;
-import org.nuxeo.ecm.core.api.NuxeoException;
-
-
-/**
+/*
  * (C) Copyright 2017 Nuxeo (http://nuxeo.com/) and others.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,8 +14,17 @@ import org.nuxeo.ecm.core.api.NuxeoException;
  * limitations under the License.
  *
  * Contributors:
- * Oisin Coveney
+ *      Oisin Coveney
  */
+package org.nuxeo.clarifaivision;
+
+import org.nuxeo.ecm.automation.core.Constants;
+import org.nuxeo.ecm.automation.core.annotations.Operation;
+import org.nuxeo.ecm.automation.core.annotations.OperationMethod;
+import org.nuxeo.ecm.core.api.DocumentModel;
+import org.nuxeo.ecm.core.api.NuxeoException;
+
+
 @Operation ( id = ClarifaiTaggerOperation.ID, category = Constants.CAT_DOCUMENT, label = "Clarifai Tagger Operation",
         description = "Tags pictures using Clarifai's image prediction service (https://clarifai.com/)" )
 public class ClarifaiTaggerOperation
