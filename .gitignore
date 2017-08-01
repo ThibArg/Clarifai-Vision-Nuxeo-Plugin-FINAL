@@ -10,3 +10,17 @@ clarifaivision-package/target/marketplace/install/bundles/
 clarifaivision-package/target/nuxeo-nxr-server-9.2.zip
 clarifaivision-package/target/nxr-1.0-SNAPSHOT.zip
 target/classes/
+node_modules
+dist
+bower_components
+.tmp
+.publish/
+target
+.classpath
+.project
+npm-debug.log
+.settings/
+bin/
+.DS_Store
+.idea
+*.iml
