@@ -1,1 +1,12 @@
 # Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/inspectionProfiles/
+clarifaivision-core/target/classes/doc-parent/
+clarifaivision-core/target/classes/doc/
+clarifaivision-core/target/generated-sources/
+clarifaivision-core/target/generated-test-sources/
+clarifaivision-package/target/classes/
+clarifaivision-package/target/marketplace/install/bundles/
+clarifaivision-package/target/nuxeo-nxr-server-9.2.zip
+clarifaivision-package/target/nxr-1.0-SNAPSHOT.zip
+target/classes/
