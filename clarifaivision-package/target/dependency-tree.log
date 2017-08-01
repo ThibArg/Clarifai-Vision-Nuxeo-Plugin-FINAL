@@ -1,0 +1,469 @@
+org.nuxeo.clarifaivision:clarifaivision-package:1.0-SNAPSHOT:zip::
+ |-- org.nuxeo.ecm.distribution:nuxeo-nxr-server:9.2:zip::provided
+ |--  |-- org.jboss.el:jboss-el:1.0_02.CR6:jar::compile
+ |--  |--  |-- javax.el:el-api:1.0:jar::compile
+ |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- xerces:xercesImpl:2.11.0:jar::compile
+ |--  |--  |--  |-- xml-apis:xml-apis:1.4.01:jar::compile
+ |--  |--  |-- xml-apis:xml-apis:1.4.01:jar::compile
+ |--  |--  |-- commons-io:commons-io:2.4:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- commons-collections:commons-collections:3.2.2:jar::compile
+ |--  |--  |-- commons-codec:commons-codec:1.10:jar::compile
+ |--  |--  |-- org.freemarker:freemarker:2.3.23:jar::compile
+ |--  |--  |-- log4j:log4j:1.2.17:jar::test (scope managed from compile)
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- javax.transaction:jta:1.1:jar::compile
+ |--  |--  |-- com.codahale.metrics:metrics-core:3.0.0:jar::compile
+ |--  |--  |--  |-- org.slf4j:slf4j-api:1.7.21:jar::compile (version managed from 1.7.5)
+ |--  |--  |-- org.osgi:org.osgi.core:4.2.0:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- commons-io:commons-io:2.4:jar::compile
+ |--  |--  |-- xerces:xercesImpl:2.11.0:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.runtime:nuxeo-runtime-osgi:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- org.osgi:org.osgi.core:4.2.0:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.runtime:nuxeo-runtime-deploy:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-launcher-commons:9.2:jar::compile
+ |--  |--  |--  |-- net.jodah:failsafe:1.0.1:jar::compile
+ |--  |--  |--  |-- commons-io:commons-io:2.4:jar::compile
+ |--  |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |--  |-- org.freemarker:freemarker:2.3.23:jar::compile
+ |--  |--  |--  |-- log4j:log4j:1.2.17:jar::test (scope managed from compile)
+ |--  |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |--  |-- com.fasterxml.jackson.core:jackson-databind:2.7.4:jar::compile
+ |--  |--  |--  |-- com.fasterxml.jackson.core:jackson-core:2.7.4:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-osgi:9.2:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- commons-io:commons-io:2.4:jar::compile
+ |--  |--  |-- org.osgi:org.osgi.core:4.2.0:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.runtime:nuxeo-runtime-metrics:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-management:9.2:jar::compile
+ |--  |--  |--  |-- org.javasimon:javasimon-jmx:2.5.0:jar::compile
+ |--  |--  |--  |--  |-- org.javasimon:javasimon-jdbc3:2.5.0:jar::compile
+ |--  |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |--  |-- xpp3:xpp3:1.1.4c:jar:clean:compile
+ |--  |--  |--  |-- org.osgi:org.osgi.core:4.2.0:jar::compile
+ |--  |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |--  |-- com.codahale.metrics:metrics-graphite:3.0.0:jar::compile
+ |--  |--  |--  |-- com.codahale.metrics:metrics-core:3.0.0:jar::compile
+ |--  |--  |-- com.codahale.metrics:metrics-log4j:3.0.0:jar::compile
+ |--  |--  |--  |-- com.codahale.metrics:metrics-core:3.0.0:jar::compile
+ |--  |--  |--  |-- log4j:log4j:1.2.17:jar::test (scope managed from compile)
+ |--  |--  |-- com.codahale.metrics:metrics-jvm:3.0.0:jar::compile
+ |--  |--  |--  |-- com.codahale.metrics:metrics-core:3.0.0:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- com.codahale.metrics:metrics-core:3.0.0:jar::compile
+ |--  |--  |-- log4j:log4j:1.2.17:jar::test (scope managed from compile)
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.core:nuxeo-core-schema:9.2:jar::compile
+ |--  |--  |-- com.sun.xsom:xsom:20140925:jar::compile
+ |--  |--  |--  |-- relaxngDatatype:relaxngDatatype:20020414:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-reload:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-jtajca:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-deploy:9.2:jar::compile
+ |--  |--  |--  |-- org.osgi:org.osgi.core:4.2.0:jar::compile
+ |--  |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- com.google.guava:guava:18.0:jar::compile
+ |--  |--  |-- org.apache.commons:commons-lang3:3.3.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-jtajca:9.2:jar::compile
+ |--  |--  |--  |-- org.apache.geronimo.components:geronimo-connector:2.2.1-NX1:jar::compile
+ |--  |--  |--  |-- org.tranql:tranql-connector:1.8:jar::compile
+ |--  |--  |--  |-- org.apache.geronimo.components:geronimo-transaction:2.2.1:jar::compile
+ |--  |--  |--  |--  |-- org.objectweb.howl:howl:1.0.1-1:jar::compile
+ |--  |--  |--  |-- org.apache.xbean:xbean-naming:3.9:jar::compile
+ |--  |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-metrics:9.2:jar::compile
+ |--  |--  |--  |-- javax.resource:connector-api:1.5:jar::compile
+ |--  |--  |--  |-- javax.transaction:jta:1.1:jar::compile
+ |--  |--  |--  |-- com.codahale.metrics:metrics-core:3.0.0:jar::compile
+ |--  |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |--  |-- com.fasterxml.jackson.core:jackson-core:2.7.4:jar::compile
+ |--  |--  |-- com.fasterxml.jackson.core:jackson-annotations:2.7.4:jar::compile
+ |--  |--  |-- org.codehaus.jackson:jackson-core-asl:1.8.1:jar::compile
+ |--  |--  |-- org.codehaus.jackson:jackson-mapper-asl:1.8.1:jar::compile
+ |--  |--  |--  |-- org.codehaus.jackson:jackson-core-asl:1.8.1:jar::compile
+ |--  |--  |-- commons-codec:commons-codec:1.10:jar::compile
+ |--  |--  |-- commons-io:commons-io:2.4:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-schema:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- com.fasterxml.jackson.core:jackson-databind:2.7.4:jar::compile
+ |--  |-- org.nuxeo.ecm.core:nuxeo-core-management:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-jtajca:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-query:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-schema:9.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-event:9.2:jar::compile
+ |--  |--  |--  |-- org.osgi:org.osgi.core:4.2.0:jar::compile
+ |--  |--  |--  |-- javax.transaction:jta:1.1:jar::compile
+ |--  |--  |--  |-- xerces:xercesImpl:2.11.0:jar::compile
+ |--  |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |--  |-- org.apache.commons:commons-lang3:3.3.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-metrics:9.2:jar::compile
+ |--  |--  |--  |-- com.codahale.metrics:metrics-core:3.0.0:jar::compile
+ |--  |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |--  |-- javax.resource:connector-api:1.5:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-jtajca:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-management:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-event:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- com.codahale.metrics:metrics-core:3.0.0:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-metrics:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.core:nuxeo-core-mimetype:9.2:jar::compile
+ |--  |--  |-- jmimemagic:jmimemagic:0.1.2:jar::compile
+ |--  |--  |--  |-- oro:oro:2.0.8:jar::compile
+ |--  |--  |-- org.apache.poi:poi:3.10-FINAL:jar::compile
+ |--  |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile (scope managed from runtime)
+ |--  |--  |-- org.apache.poi:poi-scratchpad:3.10-FINAL:jar::compile
+ |--  |--  |--  |-- org.apache.poi:poi:3.10-FINAL:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.core:nuxeo-core-storage:9.2:jar::compile
+ |--  |--  |-- commons-httpclient:commons-httpclient:3.1:jar::compile
+ |--  |--  |-- net.htmlparser.jericho:jericho-html:3.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-reload:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-schema:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-query:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-event:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-convert-api:9.2:jar::compile
+ |--  |--  |-- commons-collections:commons-collections:3.2.2:jar::compile
+ |--  |--  |-- commons-io:commons-io:2.4:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- org.apache.commons:commons-lang3:3.3.2:jar::compile
+ |--  |--  |-- com.google.guava:guava:18.0:jar::compile
+ |--  |--  |-- javax.resource:connector-api:1.5:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-metrics:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.core:nuxeo-core-query:9.2:jar::compile
+ |--  |--  |-- cup:java-cup:0.11a:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.core:nuxeo-core-io:9.2:jar::compile
+ |--  |--  |-- dom4j:dom4j:1.6.1:jar::compile
+ |--  |--  |-- jaxen:jaxen:1.1.6:jar::compile
+ |--  |--  |--  |-- dom4j:dom4j:1.6.1:jar::compile
+ |--  |--  |-- com.sun.jersey:jersey-core:1.18.3:jar::compile
+ |--  |--  |--  |-- org.osgi:org.osgi.core:4.2.0:jar::compile (scope managed from provided)
+ |--  |--  |-- com.sun.jersey:jersey-client:1.18.3:jar::compile
+ |--  |--  |--  |-- com.sun.jersey:jersey-core:1.18.3:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-jtajca:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-schema:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-event:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-query:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-storage:9.2:jar::compile
+ |--  |--  |-- commons-io:commons-io:2.4:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- org.apache.commons:commons-lang3:3.3.2:jar::compile
+ |--  |--  |-- org.codehaus.jackson:jackson-core-asl:1.8.1:jar::compile
+ |--  |--  |-- org.codehaus.jackson:jackson-mapper-asl:1.8.1:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.core:nuxeo-core-convert-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.core:nuxeo-core-convert:9.2:jar::compile
+ |--  |--  |-- commons-codec:commons-codec:1.10:jar::compile
+ |--  |--  |-- commons-io:commons-io:2.4:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-io:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-convert-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-event:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-mimetype:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- com.sun.jersey:jersey-core:1.18.3:jar::compile
+ |--  |-- org.nuxeo.ecm.core:nuxeo-core-convert-plugins:9.2:jar::compile
+ |--  |--  |-- javax.mail:mail:1.4.5:jar::compile
+ |--  |--  |-- org.apache.pdfbox:pdfbox:1.8.9:jar::compile
+ |--  |--  |--  |-- org.apache.pdfbox:fontbox:1.8.9:jar::compile
+ |--  |--  |--  |-- org.apache.pdfbox:jempbox:1.8.9:jar::compile
+ |--  |--  |-- org.apache.poi:poi-ooxml:3.10-FINAL:jar::compile
+ |--  |--  |--  |-- org.apache.poi:poi-ooxml-schemas:3.10-FINAL:jar::compile
+ |--  |--  |--  |-- org.apache.poi:poi:3.10-FINAL:jar::compile
+ |--  |--  |--  |-- dom4j:dom4j:1.6.1:jar::compile
+ |--  |--  |-- org.apache.xmlbeans:xmlbeans:2.6.0:jar::compile
+ |--  |--  |-- commons-io:commons-io:2.4:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |--  |-- net.htmlparser.jericho:jericho-html:3.2:jar::compile
+ |--  |--  |-- org.apache.poi:poi:3.10-FINAL:jar::compile
+ |--  |--  |-- org.apache.poi:poi-scratchpad:3.10-FINAL:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-convert:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-convert-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-commandline-executor:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-convert:9.2:jar::compile
+ |--  |--  |-- commons-fileupload:commons-fileupload:1.3.1:jar::compile
+ |--  |--  |-- org.artofsolving.jodconverter:jodconverter-core:3.0-NX10:jar::compile
+ |--  |--  |--  |-- org.openoffice:juh:3.1.0:jar::compile
+ |--  |--  |--  |-- org.openoffice:ridl:3.1.0:jar::compile
+ |--  |--  |--  |-- org.openoffice:unoil:3.1.0:jar::compile
+ |--  |--  |-- org.openoffice:ridl:3.1.0:jar::compile
+ |--  |--  |-- org.openoffice:juh:3.1.0:jar::compile
+ |--  |--  |--  |-- org.openoffice:jurt:3.1.0:jar::compile
+ |--  |--  |--  |-- org.openoffice:ridl:3.1.0:jar::compile
+ |--  |--  |-- org.openoffice:unoil:3.1.0:jar::compile
+ |--  |--  |--  |-- org.openoffice:ridl:3.1.0:jar::compile
+ |--  |--  |-- org.openoffice:jurt:3.1.0:jar::compile
+ |--  |--  |--  |-- org.openoffice:ridl:3.1.0:jar::compile
+ |--  |--  |-- com.cforcoding.jmd:jmd:0.8.1-tomasol-3e60e36137:jar::compile
+ |--  |--  |-- com.ibm.icu:icu4j:51.1:jar::compile
+ |--  |--  |-- xpp3:xpp3:1.1.4c:jar:clean:compile
+ |--  |--  |-- commons-io:commons-io:2.4:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-convert-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-convert:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-convert-plugins:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-mimetype:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-commandline-executor:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- org.apache.commons:commons-lang3:3.3.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-types-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-forms-layout-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-commandline-executor:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-launcher-commons:9.2:jar::compile
+ |--  |--  |-- org.apache.commons:commons-lang3:3.3.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-directory-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-metrics:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-directory-types-contrib:9.2:jar::runtime
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-login:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-usermanager-api:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-directory-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-schema:9.2:jar::compile (scope managed from runtime)
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-directory-types-contrib:9.2:jar::runtime
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-web-common:9.2:jar::compile
+ |--  |--  |-- javax.servlet.jsp:jsp-api:2.2:jar::compile
+ |--  |--  |-- com.thetransactioncompany:cors-filter:2.4:jar::compile
+ |--  |--  |--  |-- com.thetransactioncompany:java-property-utils:1.9.1:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-usermanager-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-management:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-login:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-event:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-io:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-management:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-jtajca:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-directory-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-url-api:9.2:jar::compile
+ |--  |--  |-- dom4j:dom4j:1.6.1:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- org.apache.commons:commons-lang3:3.3.2:jar::compile
+ |--  |--  |-- javax.transaction:jta:1.1:jar::compile
+ |--  |--  |-- commons-httpclient:commons-httpclient:3.1:jar::compile
+ |--  |--  |-- com.codahale.metrics:metrics-core:3.0.0:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-metrics:9.2:jar::compile
+ |--  |--  |-- com.sun.jersey:jersey-core:1.18.3:jar::compile
+ |--  |--  |-- com.google.guava:guava:18.0:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-usermanager-api:9.2:jar::compile
+ |--  |--  |-- commons-collections:commons-collections:3.2.2:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-directory-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-versioning-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.webengine:nuxeo-webengine-core:9.2:jar::compile
+ |--  |--  |-- com.sun.jersey:jersey-server:1.18.3:jar::compile
+ |--  |--  |--  |-- com.sun.jersey:jersey-core:1.18.3:jar::compile
+ |--  |--  |-- com.sun.jersey:jersey-servlet:1.18.3:jar::compile
+ |--  |--  |--  |-- com.sun.jersey:jersey-server:1.18.3:jar::compile
+ |--  |--  |-- net.sf.json-lib:json-lib:2.4:jar:jdk15:compile
+ |--  |--  |--  |-- oro:oro:2.0.8:jar::compile
+ |--  |--  |-- net.sf.ezmorph:ezmorph:1.0.4:jar::compile
+ |--  |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |--  |-- org.codehaus.groovy:groovy-all:2.4.0:jar::compile
+ |--  |--  |-- org.nuxeo.build:nuxeo-apt-extensions:1.0:jar::compile
+ |--  |--  |-- org.nuxeo.build:nuxeo-webengine-apt:1.2:jar::compile
+ |--  |--  |--  |-- org.nuxeo.build:nuxeo-apt-extensions:1.0:jar::compile
+ |--  |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile (scope managed from provided)
+ |--  |--  |-- com.sun.jersey:jersey-core:1.18.3:jar::compile
+ |--  |--  |-- org.codehaus.jackson:jackson-core-asl:1.8.1:jar::compile
+ |--  |--  |-- org.codehaus.jackson:jackson-mapper-asl:1.8.1:jar::compile
+ |--  |--  |-- commons-fileupload:commons-fileupload:1.3.1:jar::compile
+ |--  |--  |-- org.osgi:org.osgi.core:4.2.0:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-osgi:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.webengine:nuxeo-webengine-jaxrs:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-web-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-rendering:9.2:jar::compile
+ |--  |--  |-- org.freemarker:freemarker:2.3.23:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-versioning-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-usermanager-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.webengine:nuxeo-webengine-jaxrs:9.2:jar::compile
+ |--  |--  |-- org.ow2.asm:asm:5.0.3:jar::compile
+ |--  |--  |-- org.osgi:org.osgi.compendium:4.2.0:jar::compile
+ |--  |--  |-- com.sun.jersey:jersey-server:1.18.3:jar::compile
+ |--  |--  |-- com.sun.jersey:jersey-servlet:1.18.3:jar::compile
+ |--  |--  |-- com.sun.jersey:jersey-core:1.18.3:jar::compile
+ |--  |--  |-- org.osgi:org.osgi.core:4.2.0:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-jtajca:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-io:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-rendering:9.2:jar::compile
+ |--  |--  |-- org.freemarker:freemarker:2.3.23:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-web-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.build:nuxeo-apt-extensions:1.0:jar::compile
+ |--  |--  |-- org.nuxeo.build:nuxeo-webengine-apt:1.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-rendering:9.2:jar::compile
+ |--  |--  |-- org.wikimodel:wem:2.0.2:jar::compile
+ |--  |--  |--  |-- net.java.dev.javacc:javacc:4.0:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-schema:9.2:jar::compile
+ |--  |--  |-- org.freemarker:freemarker:2.3.23:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.automation:nuxeo-automation-core:9.2:jar::compile
+ |--  |--  |-- org.mvel:mvel2:2.2.4.FinalNX01:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-event:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-rendering:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-convert:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-usermanager-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-convert-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-schema:9.2:jar::compile
+ |--  |--  |-- javax.mail:mail:1.4.5:jar::compile
+ |--  |--  |-- org.freemarker:freemarker:2.3.23:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-forms-layout-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-forms-layout-core:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.webengine:nuxeo-webengine-core:9.2:jar::compile
+ |--  |--  |-- org.osgi:org.osgi.core:4.2.0:jar::compile
+ |--  |--  |-- org.codehaus.groovy:groovy-all:2.4.0:jar::compile
+ |--  |--  |-- javax.transaction:jta:1.1:jar::compile
+ |--  |--  |-- com.google.guava:guava:18.0:jar::compile
+ |--  |--  |-- org.codehaus.jackson:jackson-core-asl:1.8.1:jar::compile
+ |--  |--  |-- org.codehaus.jackson:jackson-mapper-asl:1.8.1:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- org.apache.pdfbox:pdfbox:1.8.9:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-forms-layout-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-forms-layout-core:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-forms-layout-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-tag-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-url-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-io:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-types-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |-- org.nuxeo.clarifaivision:clarifaivision-core:1.0-SNAPSHOT:jar::compile
+ |--  |-- org.nuxeo.ecm.core:nuxeo-core-event:9.2:jar::compile
+ |--  |--  |-- org.quartz-scheduler:quartz:2.2.3:jar::compile
+ |--  |--  |--  |-- c3p0:c3p0:0.9.1.1:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-api:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.ecm.core:nuxeo-core-schema:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-jtajca:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.common:nuxeo-common:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-reload:9.2:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-management:9.2:jar::compile
+ |--  |--  |-- org.osgi:org.osgi.core:4.2.0:jar::compile
+ |--  |--  |-- javax.transaction:jta:1.1:jar::compile
+ |--  |--  |-- commons-lang:commons-lang:2.6:jar::compile
+ |--  |--  |-- com.codahale.metrics:metrics-core:3.0.0:jar::compile
+ |--  |--  |-- org.nuxeo.runtime:nuxeo-runtime-metrics:9.2:jar::compile
+ |--  |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |--  |-- com.squareup.okhttp3:okhttp:3.1.1:jar::system (version managed from 3.8.1)
+ |--  |-- com.google.code.gson:gson:2.2.2:jar::system (version managed from 2.8.1)
+ |--  |-- com.squareup.okio:okio:1.13.0:jar::system
+ |--  |-- com.clarifai.clarifai-api2:core:2.2.11:jar::system
+ |--  |-- org.nuxeo.ecm.automation:nuxeo-automation-core:9.2:jar::compile
+ |--  |-- org.nuxeo.ecm.platform:nuxeo-platform-tag-api:9.2:jar::compile
+ |--  |-- commons-logging:commons-logging:1.1:jar::compile
+ |-- commons-logging:commons-logging:1.1:jar::compile
+ |-- log4j:log4j:1.2.17:jar::test
+ |--  |-- oro:oro:2.0.8:jar::compile (scope managed from test)
+ |-- junit:junit:4.11:jar::test

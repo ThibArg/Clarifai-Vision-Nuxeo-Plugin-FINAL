@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.hp.hpl.jena:jena:2.6.4-NX">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/hp/hpl/jena/jena/2.6.4-NX/jena-2.6.4-NX.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/hp/hpl/jena/jena/2.6.4-NX/jena-2.6.4-NX-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/hp/hpl/jena/jena/2.6.4-NX/jena-2.6.4-NX-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

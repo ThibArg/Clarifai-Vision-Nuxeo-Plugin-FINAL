@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!--suppress NonOsgiMavenDependency -->
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.nuxeo.clarifaivision</groupId>
+        <artifactId>clarifaivision-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>clarifaivision-core</artifactId>
+    <name>Clarifaivision core</name>
+    <description>Clarifai Vision for tagging Nuxeo Picture documents</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.nuxeo.ecm.automation</groupId>
+            <artifactId>nuxeo-automation-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.nuxeo.ecm.automation</groupId>
+            <artifactId>nuxeo-automation-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nuxeo.runtime</groupId>
+            <artifactId>nuxeo-runtime-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nuxeo.ecm.platform</groupId>
+            <artifactId>nuxeo-platform-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nuxeo.ecm.core</groupId>
+            <artifactId>nuxeo-core-event</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.8.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/okhttp-3.8.1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/gson-2.8.1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okio</groupId>
+            <artifactId>okio</artifactId>
+            <version>1.13.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/okio-1.13.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.clarifai.clarifai-api2</groupId>
+            <artifactId>core</artifactId>
+            <version>2.2.11</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/com.clarifai.clarifai2-api-2.2.11.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.nuxeo.ecm.platform</groupId>
+            <artifactId>nuxeo-platform-tag-api</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <systemPropertyVariables>
+                        <!--suppress MavenModelInspection -->
+                        <org.nuxeo.clarifaivision.key>${org.nuxeo.clarifaivision.key}</org.nuxeo.clarifaivision.key>
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

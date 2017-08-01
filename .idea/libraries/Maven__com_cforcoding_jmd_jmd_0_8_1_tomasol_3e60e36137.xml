@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.cforcoding.jmd:jmd:0.8.1-tomasol-3e60e36137">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cforcoding/jmd/jmd/0.8.1-tomasol-3e60e36137/jmd-0.8.1-tomasol-3e60e36137.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cforcoding/jmd/jmd/0.8.1-tomasol-3e60e36137/jmd-0.8.1-tomasol-3e60e36137-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cforcoding/jmd/jmd/0.8.1-tomasol-3e60e36137/jmd-0.8.1-tomasol-3e60e36137-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

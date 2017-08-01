@@ -1,0 +1,17 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: org.nuxeo.clarifaivision
+Bundle-Version: 1.0.0
+Bundle-Name: clarifaivision-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.nuxeo.clarifaivision.clarifaivision-core;singleton=true
+Nuxeo-Component: OSGI-INF/clarifaitaggeroperation-operation-contrib.xml,
+ OSGI-INF/clarifaipicturelistener-listener-contrib.xml
+Import-Package: org.nuxeo.ecm.core.event,
+ org.nuxeo.ecm.core,
+ org.nuxeo.ecm.automation,
+ org.apache.commons.lang3,
+ clarifai2,
+ org.nuxeo.runtime,
+ org.nuxeo.ecm.platform.tag

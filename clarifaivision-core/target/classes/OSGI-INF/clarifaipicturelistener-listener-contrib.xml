@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.clarifaivision.listener.clarifaipicturelistener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent" point="listener">
+    <listener name="clarifaipicturelistener"
+      class="org.nuxeo.clarifaivision.ClarifaiPictureListener">
+        <event>pictureViewsGenerationDone</event>
+    </listener>
+  </extension>
+
+</component>

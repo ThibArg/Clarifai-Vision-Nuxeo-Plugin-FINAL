@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="Manually" manifestLocation="src/main/resources/META-INF/MANIFEST.MF" jarfileLocation="clarifaivision-core.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="false" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties />
+        <additionalJARContents />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="2" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="jvmTarget" value="1.6" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesWarn" value="true" />
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.automation:nuxeo-automation-core:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-rendering:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.wikimodel:wem:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: net.java.dev.javacc:javacc:4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-convert:9.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.artofsolving.jodconverter:jodconverter-core:3.0-NX10" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-convert:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-convert-plugins:9.2" level="project" />
+    <orderEntry type="library" name="Maven: net.htmlparser.jericho:jericho-html:3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi:3.10-FINAL" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml:3.10-FINAL" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml-schemas:3.10-FINAL" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-scratchpad:3.10-FINAL" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-mimetype:9.2" level="project" />
+    <orderEntry type="library" name="Maven: jmimemagic:jmimemagic:0.1.2" level="project" />
+    <orderEntry type="library" name="Maven: oro:oro:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-commandline-executor:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.runtime:nuxeo-launcher-commons:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.connect:nuxeo-connect-client:1.5.1" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.equinox:org.eclipse.equinox.p2.cudf:1.17-NX" level="project" />
+    <orderEntry type="library" name="Maven: org.sat4j:org.sat4j.pb:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.sat4j:org.sat4j.core:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.core:org.eclipse.core.jobs:3.5.0.v20100515" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.equinox:org.eclipse.equinox.common:3.6.0.v20100503" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20070829" level="project" />
+    <orderEntry type="library" name="Maven: net.jodah:failsafe:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:ridl:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:juh:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:unoil:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:jurt:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.cforcoding.jmd:jmd:0.8.1-tomasol-3e60e36137" level="project" />
+    <orderEntry type="library" name="Maven: com.ibm.icu:icu4j:51.1" level="project" />
+    <orderEntry type="library" name="Maven: xpp3:xpp3:clean:1.1.4c" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-query-api:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-io:9.2" level="project" />
+    <orderEntry type="library" name="Maven: jaxen:jaxen:1.1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-query:9.2" level="project" />
+    <orderEntry type="library" name="Maven: cup:java-cup:0.11a" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-search-api:9.2" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.8.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-usermanager-api:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-api:9.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.4" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-el:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.el:jboss-el:1.0_02.CR6" level="project" />
+    <orderEntry type="library" name="Maven: javax.el:el-api:1.0" level="project" />
+    <orderEntry type="library" name="Maven: xerces:xercesImpl:2.11.0" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-convert-api:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-schema:9.2" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xsom:xsom:20140925" level="project" />
+    <orderEntry type="library" name="Maven: relaxngDatatype:relaxngDatatype:20020414" level="project" />
+    <orderEntry type="library" name="Maven: javax.mail:mail:1.4.5" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.23" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-forms-layout-api:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-forms-layout-core:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.runtime:nuxeo-runtime:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.common:nuxeo-common:9.2" level="project" />
+    <orderEntry type="library" name="Maven: xml-apis:xml-apis:1.4.01" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.webengine:nuxeo-webengine-core:9.2" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-server:1.18.3" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-servlet:1.18.3" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.ezmorph:ezmorph:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-api:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-web-common:9.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet.jsp:jsp-api:2.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-httpclient:commons-httpclient:3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.thetransactioncompany:cors-filter:2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.thetransactioncompany:java-property-utils:1.9.1" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-versioning-api:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.build:nuxeo-apt-extensions:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.build:nuxeo-webengine-apt:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.osgi:org.osgi.core:4.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.mvel:mvel2:2.2.4.FinalNX01" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-all:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.transaction:jta:1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.pdfbox:pdfbox:1.8.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.pdfbox:fontbox:1.8.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.pdfbox:jempbox:1.8.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.automation:nuxeo-automation-test:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.automation:nuxeo-automation-server:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-cache:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-types-api:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-url-api:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.webengine:nuxeo-webengine-base:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-comment-api:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.automation:nuxeo-automation-io:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.yaml:snakeyaml:1.13" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-actions-core:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-audit-api:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-forms-layout-io:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-preview-core:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-htmlsanitizer:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.owasp.antisamy:antisamy:1.5.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.xmlgraphics:batik-css:1.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.xmlgraphics:batik-util:1.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.w3c.css:sac:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.restlet:org.restlet:1.0.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-invite:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.automation:nuxeo-automation-scripting:9.2" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-core:1.18.3" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.webengine:nuxeo-webengine-jaxrs:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.core:nuxeo-core-test:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.core:nuxeo-core-event:test-jar:tests:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-storage:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.core:nuxeo-core-storage-sql:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.sf.ehcache:ehcache-core:2.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.core:nuxeo-core-storage-sql-test:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.lib.core:nuxeo-core-storage-sql-extensions:9.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.h2database:h2:1.4.177-NX01" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.lucene:lucene-core:5.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.lucene:lucene-queryparser:5.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.lucene:lucene-queries:5.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.lucene:lucene-sandbox:5.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.lucene:lucene-analyzers-common:5.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.derby:derby:10.10.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.postgresql:postgresql:42.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: mysql:mysql-connector-java:5.1.39" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mariadb.jdbc:mariadb-java-client:1.5.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.microsoft.sqlserver:sqljdbc:4.2.6420" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.core:nuxeo-core-storage-dbs:test-jar:tests:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.core:nuxeo-core-storage-mem:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.core:nuxeo-core-storage-dbs:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.core:nuxeo-core-storage-mongodb:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.javasimon:javasimon-core:2.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: dumbster:dumbster:1.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-features-test:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.webengine:nuxeo-webengine-ui:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.webengine:nuxeo-webengine-gwt:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-login-default:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-api-test:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.core:nuxeo-core-management-jtajca:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-dbcp:commons-dbcp:1.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-pool:commons-pool:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.tomcat:tomcat-dbcp:7.0.69" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.automation:nuxeo-automation-client:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpclient-osgi:4.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpmime:4.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpclient-cache:4.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:fluent-hc:4.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpcore-osgi:4.4.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.4" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-client:1.18.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.sun.jersey.contribs:jersey-apache-client4:1.18.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:slf4j-log4j12:1.7.21" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.automation:nuxeo-automation-features:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.core:nuxeo-core-persistence:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-entitymanager:3.4.0.GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-commons-annotations:3.1.0.GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-annotations:3.4.0.GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-uidgen-core:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-relations-api:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-filemanager-api:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-userworkspace-api:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-notification-api:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-notification-core:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-audit-core:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.sun.jersey.contribs:jersey-multipart:1.18.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jvnet.mimepull:mimepull:1.9.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mortbay.jetty:jetty:6.1.26" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mortbay.jetty:jetty-naming:6.1.26" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mortbay.jetty:jetty-plus:6.1.26" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mortbay.jetty:jetty-annotations:6.1.26" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.geronimo.specs:geronimo-annotation_1.0_spec:1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mortbay.jetty:jetty-util:6.1.26" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.runtime:nuxeo-runtime-jtajca:9.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.resource:connector-api:1.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.components:geronimo-connector:2.2.1-NX1" level="project" />
+    <orderEntry type="library" name="Maven: org.tranql:tranql-connector:1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.components:geronimo-transaction:2.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.objectweb.howl:howl:1.0.1-1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xbean:xbean-naming:3.9" level="project" />
+    <orderEntry type="library" name="Maven: org.osgi:org.osgi.compendium:4.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.runtime:nuxeo-runtime-test:9.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject:guice:3.0" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.github.lukehutch:fast-classpath-scanner:2.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.runtime:nuxeo-runtime-osgi:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.runtime:nuxeo-runtime-management:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.javasimon:javasimon-jmx:2.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.javasimon:javasimon-jdbc3:2.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.thoughtworks.xstream:xstream:1.4.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.tngtech.jgiven:jgiven-core:0.14.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.thoughtworks.paranamer:paranamer:2.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.fusesource.jansi:jansi:1.13" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.tngtech.jgiven:jgiven-junit:0.14.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.tngtech.jgiven:jgiven-html5-report:0.14.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.tngtech.java:junit-dataprovider:1.12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jmock:jmock:2.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-library:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jmock:jmock-junit4:2.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.6.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:1.9.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:1.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.3.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.runtime:nuxeo-runtime-jetty-adapter:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: jotm:jotm:2.0.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: jotm:jotm_jrmp_stubs:2.0.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.objectweb.carol:carol:2.0.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: howl:howl-logger:0.1.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mortbay.jetty:jsp-api-2.1:6.1.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mortbay.jetty:servlet-api-2.5:6.1.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mortbay.jetty:jsp-2.1:6.1.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jdt:core:3.1.1-NXP-4284" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: ant:ant:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:selenium-api:2.53.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:selenium-support:2.53.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:selenium-remote-driver:2.53.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: cglib:cglib-nodep:2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:selenium-firefox-driver:2.53.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-exec:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:selenium-ie-driver:2.53.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.java.dev.jna:jna:4.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.java.dev.jna:jna-platform:4.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:2.53.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:htmlunit-driver:2.20" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.sourceforge.htmlunit:htmlunit:2.20" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: xalan:xalan:2.7.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: xalan:serializer:2.7.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.sourceforge.htmlunit:htmlunit-core-js:2.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.sourceforge.nekohtml:nekohtml:1.9.22" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.sourceforge.cssparser:cssparser:0.9.18" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty.websocket:websocket-client:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty:jetty-util:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty:jetty-io:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty.websocket:websocket-common:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty.websocket:websocket-api:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.concordion:concordion:1.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: ognl:ognl:2.7.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: xom:xom:1.2.5" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm:5.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.21" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: concurrent:concurrent:1.3.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-test:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.lib.runtime:nuxeo-runtime-launcher:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-directory-api:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-directory-sql:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-directory-core:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-directory-sql:test-jar:tests:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-directory-mongodb:9.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mongodb:mongo-java-driver:3.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-directory-test:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-directory-test:test-jar:tests:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.core:nuxeo-core-test:test-jar:tests:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-login:test-jar:tests:9.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-directory-types-contrib:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: hsqldb:hsqldb:1.8.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-dublincore:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-content-template-manager:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-types-core:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-filemanager-core:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-usermanager-core:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-directory-ldap:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-management:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.server:apacheds-core:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.server:apacheds-schema-bootstrap:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: jdbm:jdbm:1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.server:apacheds-schema-registries:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.server:apacheds-core-shared:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.server:apacheds-utils:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.server:apacheds-jdbm-store:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.server:apacheds-constants:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.server:apacheds-btree-base:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.server:apacheds-bootstrap-extract:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.server:apacheds-kerberos-shared:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.mina:mina-core:1.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.server:apacheds-protocol-shared:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.shared:shared-ldap:0.9.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.shared:shared-asn1:0.9.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.directory.shared:shared-ldap-constants:0.9.7" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-login:9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-csv:1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-core:3.3.2.GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.core:nuxeo-core-event:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.runtime:nuxeo-runtime-datasource:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jdbc:7.0.69" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:7.0.69" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.runtime:nuxeo-runtime-reload:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.runtime:nuxeo-runtime-deploy:9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz:2.2.3" level="project" />
+    <orderEntry type="library" name="Maven: c3p0:c3p0:0.9.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.codahale.metrics:metrics-core:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.nuxeo.runtime:nuxeo-runtime-metrics:9.2" level="project" />
+    <orderEntry type="library" name="Maven: com.codahale.metrics:metrics-graphite:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.codahale.metrics:metrics-log4j:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.codahale.metrics:metrics-jvm:3.0.0" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.squareup.okhttp3:okhttp:3.8.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/okhttp-3.8.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.google.code.gson:gson:2.8.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/gson-2.8.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.squareup.okio:okio:1.13.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/okio-1.13.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.clarifai.clarifai-api2:core:2.2.11">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/com.clarifai.clarifai2-api-2.2.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-tag-api:9.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+  </component>
+</module>

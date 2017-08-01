@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipse.jdt:core:3.1.1-NXP-4284">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/core/3.1.1-NXP-4284/core-3.1.1-NXP-4284.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/core/3.1.1-NXP-4284/core-3.1.1-NXP-4284-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/core/3.1.1-NXP-4284/core-3.1.1-NXP-4284-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

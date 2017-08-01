@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.nuxeo.ecm.platform:nuxeo-platform-login:test-jar:tests:9.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nuxeo/ecm/platform/nuxeo-platform-login/9.2/nuxeo-platform-login-9.2-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nuxeo/ecm/platform/nuxeo-platform-login/9.2/nuxeo-platform-login-9.2-test-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nuxeo/ecm/platform/nuxeo-platform-login/9.2/nuxeo-platform-login-9.2-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

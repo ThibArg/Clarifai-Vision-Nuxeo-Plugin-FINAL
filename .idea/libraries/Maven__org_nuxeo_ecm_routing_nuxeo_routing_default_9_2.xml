@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.nuxeo.ecm.routing:nuxeo-routing-default:9.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nuxeo/ecm/routing/nuxeo-routing-default/9.2/nuxeo-routing-default-9.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nuxeo/ecm/routing/nuxeo-routing-default/9.2/nuxeo-routing-default-9.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nuxeo/ecm/routing/nuxeo-routing-default/9.2/nuxeo-routing-default-9.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

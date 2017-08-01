@@ -1,0 +1,5 @@
+bundles/clarifaivision-core-1.0-SNAPSHOT.jar
+lib/com.clarifai.clarifai2-api-2.2.11.jar
+lib/gson-2.8.1.jar
+lib/okhttp-3.8.1.jar
+lib/okio-1.13.0.jar

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipse.equinox:org.eclipse.equinox.p2.cudf:1.17-NX">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/equinox/org.eclipse.equinox.p2.cudf/1.17-NX/org.eclipse.equinox.p2.cudf-1.17-NX.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/equinox/org.eclipse.equinox.p2.cudf/1.17-NX/org.eclipse.equinox.p2.cudf-1.17-NX-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/equinox/org.eclipse.equinox.p2.cudf/1.17-NX/org.eclipse.equinox.p2.cudf-1.17-NX-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

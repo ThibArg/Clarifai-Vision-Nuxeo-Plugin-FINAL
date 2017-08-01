@@ -1,0 +1,13 @@
+{
+  "generator-nuxeo": {
+    "lastRemote": "/Users/oisincoveney/.cache/node-yeoman-remote-cache/nuxeo/generator-nuxeo-meta/2.6.1",
+    "promptValues": {
+      "parent_package": "org.nuxeo.clarifaivision",
+      "parent_artifact": "clarifaivision-parent",
+      "parent_version": "1.0-SNAPSHOT",
+      "package": "org.nuxeo.clarifaivision"
+    },
+    "_nuxeo_version": "9.2",
+    "multi": true
+  }
+}

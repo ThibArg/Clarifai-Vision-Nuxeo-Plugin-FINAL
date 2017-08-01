@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="clarifaivision-core" />
+        <module name="clarifaivision-package" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="clarifaivision-core" target="1.8" />
+      <module name="clarifaivision-package" target="1.8" />
+      <module name="clarifaivision-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
